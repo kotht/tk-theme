@@ -1,0 +1,21 @@
+{
+    "name": "tk-theme",
+    "displayName": "TK Theme",
+    "description": "TK's custom VSCode theme based on terminal configuration",
+    "version": "0.0.1",
+    "publisher": "kotht",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+
+        "themes": [
+            {
+                "label": "TK Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/theme.json"
+            }
+        ]
+    }
+}
